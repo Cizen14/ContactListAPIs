@@ -15,3 +15,24 @@
 .users{
     padding-top: 10px;
 }
+.option{
+    text-align: center;
+}
+
+.main-section{
+    padding-top: 10px;
+    display: grid;
+    grid-template-areas:
+   "card card1 card2"
+   "card3 card4 crad5"
+   "card6 card7 card8"
+   ".    card9   ." ;
+  
+   gap: 10px 20px;
+
+}
+.card{
+    gap:2px;
+    padding :5px;
+    width: 20px;
+}
